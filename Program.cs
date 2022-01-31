@@ -85,7 +85,7 @@ namespace Assignment1
             Console.Write("Enter the char");
             char ch = char.Parse(Console.ReadLine());
 
-            string reversed_string = ReversePrefix(bulls_string, ch);
+            string reversed_string = ReversePrefix(bulls_string6, ch);
 
             Console.WriteLine("Resultant string are reversing the prefix:{0}", reversed_string);
         }
